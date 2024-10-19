@@ -8,7 +8,8 @@ const Second = () => {
         <div
           className="w-2/5 relative opacity-50"
           style={{
-            backgroundImage: "url('https://theme.creativemox.com//cinemox//wp-content//uploads//sites//23//2024//03//video-production-backstage-behind-the-scenes-of-creating-video-content-a-professional-team-of.jpg')",
+            backgroundImage:
+              "url('https://theme.creativemox.com//cinemox//wp-content//uploads//sites//23//2024//03//video-production-backstage-behind-the-scenes-of-creating-video-content-a-professional-team-of.jpg')",
             backgroundPosition: "center",
             backgroundSize: "cover",
             borderTopRightRadius: "60%",
@@ -22,8 +23,9 @@ const Second = () => {
               We build a solid foundation to achieve extraordinary achievements
             </h1>
             <p className="mt-4 text-sm">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
-              tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
+              Partner with Cinemox to elevate your visual storytelling! Contact
+              us today to start your cinematic journey and bring your vision to
+              life.
             </p>
           </div>
         </div>

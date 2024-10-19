@@ -7,19 +7,19 @@ const Contact = () => {
     {
       id: 1,
       title: 'Head Office',
-      description: 'Jln Cempaka Wangi No 22\nJakarta - Indonesia',
+      description: 'Victory Cineworld, Tapadia Terrace, Adalat Rd, opposite Distric Court ,Kotla Colony, Chhatrapati Sambhajinagar (Aurangabad), Maharashtra-431001',
       icon: '🏢', // Replace this with an appropriate SVG icon if needed
     },
     {
       id: 2,
       title: 'Email Support',
-      description: 'support@yourdomain.tld\nhello@yourdomain.tld',
+      description: 'hello@victorycineworld.com',
       icon: '✉️', // Replace this with an appropriate SVG icon if needed
     },
     {
       id: 3,
       title: 'Call Us',
-      description: 'Phone : (+6221) 2002 2012\nFax : (+6221) 2002 2013',
+      description: 'Mobile : (+91)  9689 896 355\nPhone : (+6221) 2002 2013',
       icon: '📞', // Replace this with an appropriate SVG icon if needed
     },
   ];
@@ -47,7 +47,7 @@ const Contact = () => {
             <h4 className="text-lg font-semibold text-white mb-2">
               {contact.title}
             </h4>
-            <p className="text-center text-gray-300 whitespace-pre-line">
+            <p className="text-center text-sm text-gray-300 whitespace-pre-line">
               {contact.description}
             </p>
           </div>

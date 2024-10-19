@@ -8,36 +8,42 @@ const Services = () => {
       title: "Corporate Video",
       image:
         "https://theme.creativemox.com//cinemox//wp-content//uploads//sites//23//2024//03//close-up-of-steadicam-screens-with-female-model-using-laptop-by-table.jpg",
+      description: "Engaging corporate videos that tell your company's story and showcase your values."
     },
     {
       id: 2,
       title: "Film Production",
       image:
         "https://theme.creativemox.com//cinemox//wp-content//uploads//sites//23//2024//03//young-videographer-and-his-assistant-adjusting-options-of-video-camera.jpg",
+      description: "High-quality film production services, from pre-production to post-production."
     },
     {
       id: 3,
       title: "Documentary Video",
       image:
         "https://theme.creativemox.com//cinemox//wp-content//uploads//sites//23//2024//03//reportage.jpg",
+      description: "Thought-provoking documentaries that explore real stories and real people."
     },
     {
       id: 4,
-      title: "Music Video",
+      title: "Digital Marketing",
       image:
         "https://theme.creativemox.com//cinemox//wp-content//uploads//sites//23//2024//03//videographer-shoots-how-a-talented-latin-american-musician-playing-guitar-in-the-studio.jpg",
+      description: "Creative and visually stunning music videos that resonate with your audience."
     },
     {
       id: 5,
       title: "Social Media",
       image:
         "https://theme.creativemox.com//cinemox//wp-content//uploads//sites//23//2024//03//young-woman-streaming-a-live-video.jpg",
+      description: "Dynamic social media content that boosts engagement and brand awareness."
     },
     {
       id: 6,
       title: "Advertise Video",
       image:
         "https://theme.creativemox.com//cinemox//wp-content//uploads//sites//23//2024//03//raer-view-of-young-videographer-in-black-casualwear-giving-advice-to-models.jpg",
+      description: "Attention-grabbing advertisement videos that convert viewers into customers."
     },
   ];
 
@@ -53,7 +59,7 @@ const Services = () => {
         {services.map((service) => (
           <div
             key={service.id}
-            className="relative  bg-gray-800 rounded-lg overflow-hidden text-gray-300"
+            className="relative bg-gray-800 rounded-lg overflow-hidden text-gray-300"
           >
             <img
               src={service.image}
@@ -66,17 +72,13 @@ const Services = () => {
             <div className="absolute bottom-2 left-2">
               <h3 className="font-bold">{service.title}</h3>
               <p className="text-xs opacity-70 text-gray-200 pt-2">
-                Lorem non duis sem lacinia condimentum velit habitasse torquent
-                amet elementum elit.
+                {service.description} {/* Updated description */}
               </p>
             </div>
           </div>
         ))}
       </div>
-      
     </div>
-
-    
   );
 };
 
