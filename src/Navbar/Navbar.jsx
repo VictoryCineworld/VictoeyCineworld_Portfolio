@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import Mobile from "./Mobile";
-import Logo from "../assets/CinemoxLogo.png";
+import Logo from "../assets/Logo.png";
 
 const Navbar = () => {
   const [show, setShow] = useState(false);
@@ -32,8 +32,8 @@ const Navbar = () => {
       <div className="hidden md:block bg-[#2F3845] bg-opacity-60">
         <nav className="w-full text-[#212832] p-4 flex items-center justify-between">
           {/* Brand Name */}
-          <div className="text-3xl font-bold font-mono  pl-10">
-            <img className="h-10" src={Logo} />
+          <div className="text-3xl font-bold font-mono  pl-10 bg-transparent">
+            <img className="h-[50px] " src={Logo}  />
           </div>
 
           <div className="w-full hidden sm:flex md:pr-16 text-gray-400 items-center justify-center">

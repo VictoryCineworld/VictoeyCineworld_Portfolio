@@ -16,14 +16,14 @@ const PartnerSection = () => {
       {/* Content Section */}
       <div className="w-full relative text-center  mx-auto pt-10">
         <h1 className="text-xl font-semibold md:text-3xl md:font-semibold ">
-          Partner with Cinemox Today!
+          Partner with Victory Cineworld Today!
         </h1>
         <h2 className="text-xl font-semibold md:text-3xl md:font-semibold mb-6">
           Contact Us for a Cinematic <br />
           Journey.
         </h2>
         <p className="text-xs font-semibold text-gray-400 md:text-base mb-8 px-6">
-          Partner with Cinemox for an unforgettable cinematic journey. Contact
+          Partner with Victory Cineworld for an unforgettable cinematic journey. Contact
           us <br />
           today to bring your vision to life on screen...
         </p>

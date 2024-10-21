@@ -60,7 +60,7 @@ const Projects = () => {
           <div className="flex items-center justify-start">
             <div>
               <h2 className="flex items-center justify-start text-center text-lg md:text-4xl font-bold mb-8 text-gray-300 md:font-semibold md:pl-24">
-                We make your idea come <span>to life</span>
+                We make your idea come to life
               </h2>
             </div>
           </div>

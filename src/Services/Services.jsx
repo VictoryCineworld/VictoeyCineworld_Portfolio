@@ -53,7 +53,7 @@ const Services = () => {
         Services
       </h1>
       <h2 className="text-center text-2xl md:text-4xl font-bold mb-8 text-gray-300 md:font-semibold">
-        Let Cinemox Ignite Your Visual <br /> Narrative
+        Let Victory Cineworld Ignite Your <br /> Visual Narrative
       </h2>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:pl-28 md:pr-28 opacity-65">
         {services.map((service) => (
