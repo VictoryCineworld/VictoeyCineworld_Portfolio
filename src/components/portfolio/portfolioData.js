@@ -12,7 +12,7 @@ const PortfolioData = [
   {
     id: 1,
     type: "mockup project",
-    image: Image1,
+    image: "https://i.pinimg.com/474x/44/f8/05/44f805c34649d753eb9e90451fea85a7.jpg",
     tag: ["mockup"],
     delayAnimation: "0",
     modalDetails: [
@@ -25,10 +25,12 @@ const PortfolioData = [
       },
     ],
   },
+
+  
   {
     id: 2,
     type: "youtube project",
-    image: Image2,
+    image: "https://i.pinimg.com/enabled_lo/474x/b8/85/c8/b885c81aff2c7879341aaeec40e39935.jpg",
     tag: ["video"],
     delayAnimation: "100",
     modalDetails: [

@@ -6,7 +6,8 @@ import cancelImg from "../../assets/img/cancel.svg";
 import Index from "../../components/about/index";
 
 const heroContent = {
-  heroImage: heroImg,
+  // heroImage: heroImg,
+  heroImage:"https://i.pinimg.com/474x/fb/d2/64/fbd264aee57005378e0204f2596c32ea.jpg",
   heroMobileImage: heroImgMobile,
   heroTitleName: "steve milner",
   heroDesignation: "web designer",

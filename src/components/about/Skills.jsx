@@ -8,7 +8,7 @@ const skillsContent = [
   { skillClass: "p95", skillPercent: "95", skillName: "WORDPRESS" },
   { skillClass: "p50", skillPercent: "50", skillName: "JQUERY" },
   { skillClass: "p65", skillPercent: "65", skillName: "ANGULAR" },
-  { skillClass: "p45", skillPercent: "45", skillName: "REACT" },
+  { skillClass: "p90", skillPercent: "90", skillName: "REACT" },
 ];
 
 const Skills = () => {

@@ -22,6 +22,7 @@ const experienceContent = [
     details: `Lorem ipsum dolor sit amet, tempor incididunt ut laboreconsectetur
         elit, sed do eiusmod tempor duntt`,
   },
+  
 ];
 
 const Experience = () => {

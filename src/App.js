@@ -10,7 +10,7 @@ const App = () => {
   // this for animation
   useEffect(() => {
     AOS.init({
-      duration: 1200,
+      duration: 200,
     });
   }, []);
 
