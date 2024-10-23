@@ -1,4 +1,4 @@
-# Tunis Personal Portfolio React Template
+# VictoryCineworld Personal Portfolio React Template
 
 ## Description
 
@@ -7,7 +7,7 @@ Setup Procedure
 ## Project setup
 
 ```
-npm install / npm install --legacy-peer-deps
+npm install / npm 
 ```
 
 ### Compiles and hot-reloads for development
@@ -28,6 +28,8 @@ npm run build
 npm run lint
 ```
 
-### Customize configuration (vue-cli)
+### Made by Udayraj . Githud:-udayraj001
 
-See [Configuration Reference](https://cli.vuejs.org/config/).
+```
+npm run lint
+```
