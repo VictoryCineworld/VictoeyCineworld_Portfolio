@@ -28,8 +28,8 @@ npm run build
 npm run lint
 ```
 
-### Made by Udayraj . Githud:-udayraj001
+### Made by Udayraj . Github:-udayraj001
 
 ```
-npm run lint
+https://github.com/udayraj001
 ```
