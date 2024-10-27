@@ -1,18 +1,19 @@
-import Image1 from "../../assets/img/portfolio/project-1.jpg";
-import Image2 from "../../assets/img/portfolio/project-2.jpg";
-import Image3 from "../../assets/img/portfolio/project-3.jpg";
-import Image4 from "../../assets/img/portfolio/project-4.jpg";
-import Image5 from "../../assets/img/portfolio/project-5.jpg";
-import Image6 from "../../assets/img/portfolio/project-6.jpg";
-import Image7 from "../../assets/img/portfolio/project-7.jpg";
-import Image8 from "../../assets/img/portfolio/project-8.jpg";
-import Image9 from "../../assets/img/portfolio/project-9.jpg";
+import Image1 from "../../assets/website photo/img1.jpg";
+import Image2 from "../../assets/website photo/img2.jpg";
+import Image3 from "../../assets/website photo/img3.jpg";
+import Image4 from "../../assets/website photo/img4.jpg";
+import Image5 from "../../assets/website photo/img5.jpg";
+import Image6 from "../../assets/website photo/img6.jpg";
+import Image7 from "../../assets/website photo/img7.jpg";
+import Image8 from "../../assets/website photo/img8.jpg";
+import Image9 from "../../assets/website photo/img9.jpg";
+import Image10 from "../../assets/website photo/img10.jpg";
 
 const PortfolioData = [
   {
     id: 1,
     type: "mockup project",
-    image: "https://i.pinimg.com/474x/44/f8/05/44f805c34649d753eb9e90451fea85a7.jpg",
+    image: Image1,
     tag: ["mockup"],
     delayAnimation: "0",
     modalDetails: [
@@ -26,11 +27,29 @@ const PortfolioData = [
     ],
   },
 
-  
+  {
+    id: 1,
+    type: "mockup project",
+    image: Image2,
+    tag: ["mockup"],
+    delayAnimation: "0",
+    modalDetails: [
+      {
+        project: "Website",
+        client: "Envato",
+        language: "HTML, CSS, Javascript",
+        preview: "www.envato.com",
+        link: "https://www.envato.com/",
+      },
+    ],
+  },
+
+  //------------------------------------------------------------------------------------------------
+
   {
     id: 2,
     type: "youtube project",
-    image: "https://i.pinimg.com/enabled_lo/474x/b8/85/c8/b885c81aff2c7879341aaeec40e39935.jpg",
+    image: Image4,
     tag: ["video"],
     delayAnimation: "100",
     modalDetails: [
@@ -44,9 +63,27 @@ const PortfolioData = [
     ],
   },
   {
+    id: 2,
+    type: "youtube project",
+    image: Image5,
+    tag: ["video"],
+    delayAnimation: "100",
+    modalDetails: [
+      {
+        project: "video",
+        client: "Videohive",
+        language: " Adobe After Effects",
+        preview: "www.videohive.net",
+        link: "https://www.videohive.net",
+      },
+    ],
+  },
+
+  //-------------------------------------------------------------------------------------------------
+  {
     id: 3,
     type: "slider project",
-    image: Image3,
+    image: Image6,
     tag: [],
     delayAnimation: "200",
     modalDetails: [
@@ -59,26 +96,28 @@ const PortfolioData = [
       },
     ],
   },
+
   {
-    id: 4,
-    type: "local project",
-    image: Image4,
-    tag: ["logo", "video"],
-    delayAnimation: "0",
+    id: 3,
+    type: "slider project",
+    image: Image7,
+    tag: [],
+    delayAnimation: "200",
     modalDetails: [
       {
-        project: "video",
-        client: "Videohive",
-        language: " Adobe After Effects",
-        preview: "www.videohive.net",
-        link: "https://www.videohive.net",
+        project: "Website",
+        client: "Themeforest",
+        language: " HTML, CSS, Javascript",
+        preview: "www.envato.com",
+        link: "https://www.envato.com",
       },
     ],
   },
+  //----------------------------------------------------------------------------------------
   {
     id: 5,
     type: "saas project",
-    image: Image5,
+    image: Image8,
     tag: ["logo"],
     delayAnimation: "100",
     modalDetails: [
@@ -94,7 +133,7 @@ const PortfolioData = [
   {
     id: 6,
     type: "mockup project",
-    image: Image6,
+    image: Image9,
     tag: ["logo", "mockup"],
     delayAnimation: "200",
     modalDetails: [
@@ -110,7 +149,7 @@ const PortfolioData = [
   {
     id: 7,
     type: "facebook project",
-    image: Image7,
+    image: Image10,
     tag: ["logo"],
     delayAnimation: "0",
     modalDetails: [
@@ -126,7 +165,7 @@ const PortfolioData = [
   {
     id: 8,
     type: "dribble project",
-    image: Image8,
+    image: Image3,
     tag: ["graphic design"],
     delayAnimation: "100",
     modalDetails: [
@@ -139,22 +178,22 @@ const PortfolioData = [
       },
     ],
   },
-  {
-    id: 9,
-    type: "behence project",
-    image: Image9,
-    tag: ["graphic design", "mockup"],
-    delayAnimation: "200",
-    modalDetails: [
-      {
-        project: "Website",
-        client: "Behance",
-        language: "HTML, CSS, Javascript",
-        preview: "www.behance.com",
-        link: "https://www.behance.net/ib-themes",
-      },
-    ],
-  },
+  // {
+  //   id: 9,
+  //   type: "behence project",
+  //   image: Image9,
+  //   tag: ["graphic design", "mockup"],
+  //   delayAnimation: "200",
+  //   modalDetails: [
+  //     {
+  //       project: "Website",
+  //       client: "Behance",
+  //       language: "HTML, CSS, Javascript",
+  //       preview: "www.behance.com",
+  //       link: "https://www.behance.net/ib-themes",
+  //     },
+  //   ],
+  // },
 ];
 
 export default PortfolioData;
