@@ -17,7 +17,7 @@ const index = () => {
             <div className="row">
               <div className="col-12">
                 <h3 className="text-uppercase custom-title mb-0 ft-wt-600">
-                  personal infos
+                  company info
                 </h3>
               </div>
               {/* End .col */}
@@ -39,7 +39,7 @@ const index = () => {
               <div className="col-12 mt-1">
                 {/* <a className="button" href={cv} download> */}
                 <a className="button" href="">
-                  <span className="button-text">Download CV</span>
+                  <span className="button-text">Download Portfolio</span>
                   <span className="button-icon fa fa-download"></span>
                 </a>
               </div>

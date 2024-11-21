@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Modal from "react-modal";
-import heroVideo from "../../assets/hero.mp4";
+import heroVideo from "../../assets/logoanimation.mp4";
 import heroImgMobile from "../../assets/img/hero/img-mobile.jpg";
 import cancelImg from "../../assets/img/cancel.svg";
 import Index from "../../components/about/index";
@@ -9,13 +9,10 @@ const heroContent = {
   heroVideo: heroVideo,
   //heroImage:"https://i.pinimg.com/474x/fb/d2/64/fbd264aee57005378e0204f2596c32ea.jpg",
   heroMobileImage: heroImgMobile,
-  heroTitleName: "steve milner",
-  heroDesignation: "web designer",
-  heroDescriptions: `I'm a Tunisian based web designer & front‑end developer focused on
-  crafting clean & user‑friendly experiences, I am passionate about
-  building excellent software that improves the lives of those
-  around me.`,
-  heroBtn: "more about me",
+  heroTitleName: "Victory Cineworld",
+  heroDesignation: "Visual Storytellers",
+  heroDescriptions: `Victory Cineworld delivers stunning visuals and compelling narratives. We specialize in crafting high-quality videos and designs that captivate your audience and drive results. From corporate videos to social media campaigns, we've got you covered. Let's create something extraordinary together.`,
+  heroBtn: "more about us",
 };
 
 const Hero = () => {
@@ -78,8 +75,10 @@ const Hero = () => {
               }}
             />
             <h1 className="text-uppercase poppins-font">
-              I'm {heroContent.heroTitleName}.
+              {heroContent.heroTitleName}.
+              <div >
               <span>{heroContent.heroDesignation}</span>
+              </div>
             </h1>
             <p className="open-sans-font">{heroContent.heroDescriptions}</p>
             <button className="button" onClick={toggleModalOne}>
@@ -110,7 +109,7 @@ const Hero = () => {
             <div data-aos="fade-up" data-aos-duration="1200">
               <div className="title-section text-left text-sm-center">
                 <h1>
-                  ABOUT <span>ME</span>
+                  ABOUT <span>US</span>
                 </h1>
                 <span className="title-bg">Resume</span>
               </div>
@@ -127,116 +126,3 @@ const Hero = () => {
 };
 
 export default Hero;
-
-// import React, { useState } from "react";
-// import Modal from "react-modal";
-// import heroVideo from "../../assets/hero.mp4"; // Import the video file
-// import heroImgMobile from "../../assets/img/hero/img-mobile.jpg";
-// import cancelImg from "../../assets/img/cancel.svg";
-// import Index from "../../components/about/index";
-
-// const heroContent = {
-//   heroMobileImage: heroImgMobile,
-//   heroTitleName: "Steve Milner",
-//   heroDesignation: "Web Designer",
-//   heroDescriptions: `I'm a Tunisian-based web designer & front‑end developer focused on
-//   crafting clean & user‑friendly experiences. I am passionate about
-//   building excellent software that improves the lives of those
-//   around me.`,
-//   heroBtn: "More about me",
-// };
-
-// const Hero = () => {
-//   const [isOpen, setIsOpen] = useState(false);
-//   function toggleModalOne() {
-//     setIsOpen(!isOpen);
-//   }
-
-//   return (
-//     <>
-//       <div className="row home-details-container align-items-center">
-//         <div className="col-lg-4 position-fixed d-none d-lg-block">
-//           {/* Video wrapper with custom size */}
-//           <div
-//             className="hero-video-wrapper"
-//             style={{
-//               width: "100%", // Adjust width to match the original image size
-//               height: "100vh", // Adjust height to match the original image size
-//               overflow: "hidden",
-//               position: "relative",
-//             }}
-//           >
-//             <video
-//               src={heroVideo}
-//               autoPlay
-//               loop
-//               muted
-//               playsInline
-//               style={{
-//                 width: "100%",
-//                 height: "100%",
-//                 objectFit: "cover",
-//                 position: "absolute",
-//                 top: 0,
-//                 left: 0,
-//               }}
-//             />
-//           </div>
-//         </div>
-//         <div className="col-12 col-lg-8 offset-lg-4 home-details text-center text-lg-start">
-//           <div>
-//             <img
-//               src={heroContent.heroMobileImage}
-//               className="img-fluid main-img-mobile d-sm-block d-lg-none"
-//               alt="hero man"
-//             />
-//             <h1 className="text-uppercase poppins-font">
-//               I'm {heroContent.heroTitleName}.
-//               <span>{heroContent.heroDesignation}</span>
-//             </h1>
-//             <p className="open-sans-font">{heroContent.heroDescriptions}</p>
-//             <button className="button" onClick={toggleModalOne}>
-//               <span className="button-text">{heroContent.heroBtn}</span>
-//               <span className="button-icon fa fa-arrow-right"></span>
-//             </button>
-//           </div>
-//         </div>
-//       </div>
-//       {/* End home-details-container */}
-
-//       {/* Start Modal for About More */}
-//       <Modal
-//         isOpen={isOpen}
-//         onRequestClose={toggleModalOne}
-//         contentLabel="My dialog"
-//         className="custom-modal dark hero"
-//         overlayClassName="custom-overlay dark"
-//         closeTimeoutMS={500}
-//       >
-//         <div>
-//           <button className="close-modal" onClick={toggleModalOne}>
-//             <img src={cancelImg} alt="close icon" />
-//           </button>
-//           {/* End close icon */}
-
-//           <div className="box_inner about">
-//             <div data-aos="fade-up" data-aos-duration="1200">
-//               <div className="title-section text-left text-sm-center">
-//                 <h1>
-//                   ABOUT <span>ME</span>
-//                 </h1>
-//                 <span className="title-bg">Resume</span>
-//               </div>
-//               {/* End title */}
-//               <Index />
-//             </div>
-//           </div>
-//         </div>
-//         {/* End modal box news */}
-//       </Modal>
-//       {/* End  Modal for About More */}
-//     </>
-//   );
-// };
-
-// export default Hero;

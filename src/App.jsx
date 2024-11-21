@@ -2,7 +2,7 @@ import React from "react";
 import "./App.css";
 import Header from "./Header/Header";
 import Middle from "./AboutUs/Middle";
-import Navbar from "./Navbar/Navbar";
+
 import PartnerSection from "./Partners/PartnerSection";
 import Services from "./Services/Services";
 import Projects from "./Projects/Projects";
