@@ -4,10 +4,10 @@ import heroVideo from "../../assets/logoanimation.mp4";
 import heroImgMobile from "../../assets/img/hero/img-mobile.jpg";
 import cancelImg from "../../assets/img/cancel.svg";
 import Index from "../../components/about/index";
+import Social from "../Social";
 
 const heroContent = {
   heroVideo: heroVideo,
-  //heroImage:"https://i.pinimg.com/474x/fb/d2/64/fbd264aee57005378e0204f2596c32ea.jpg",
   heroMobileImage: heroImgMobile,
   heroTitleName: "Victory Cineworld",
   heroDesignation: "Visual Storytellers",
@@ -32,14 +32,9 @@ const Hero = () => {
             })`,
           }}
         ></div>
-        <div className="col-12 col-lg-8 offset-lg-4 home-details  text-center text-lg-start">
+        <div className="col-12 col-lg-8 offset-lg-4 home-details text-center text-lg-start">
           <div>
-            {/* <img
-              src={heroContent.heroMobileImage}
-              className="img-fluid main-img-mobile d-sm-block d-lg-none"
-              alt="hero man"
-            /> */}
-
+            {/* Mobile Video */}
             <video
               autoPlay
               loop
@@ -49,15 +44,14 @@ const Hero = () => {
               style={{
                 width: "300px",
                 height: "300px",
-                borderRadius: "50%", // Makes the video round
-                objectFit: "cover", // Ensures the video fills the 300x300 area
+                borderRadius: "50%",
+                objectFit: "cover",
               }}
             >
               <source src={heroVideo} type="video/mp4" />
-              <source src="path/to/hero.webm" type="video/webm" />{" "}
-              {/* Optional fallback */}
             </video>
 
+            {/* Desktop Video */}
             <video
               className="col-lg-4 bg position-fixed d-none d-lg-block"
               src={heroVideo}
@@ -66,31 +60,42 @@ const Hero = () => {
               muted
               playsInline
               style={{
-                width: "33%",
+                width: "34%",
                 height: "89%",
                 objectFit: "cover",
-                position: "",
                 top: 40,
                 left: 36,
               }}
             />
-            <h1 className="text-uppercase poppins-font">
-              {heroContent.heroTitleName}.
-              <div >
-              <span>{heroContent.heroDesignation}</span>
+
+            {/* Heading */}
+            <h1
+              className="text-uppercase poppins-font"
+              style={{ fontSize: "2.8rem", fontWeight: "600" }} // Adjusted size
+            >
+              {heroContent.heroTitleName}
+              <div>
+                <span style={{ fontSize: "2rem", fontWeight: "600" }}>
+                  {heroContent.heroDesignation}
+                </span>
               </div>
             </h1>
-            <p className="open-sans-font">{heroContent.heroDescriptions}</p>
+
+            {/* Description */}
+            <p className="open-sans-font ">{heroContent.heroDescriptions}</p>
+
+            {/* Button */}
             <button className="button" onClick={toggleModalOne}>
               <span className="button-text">{heroContent.heroBtn}</span>
               <span className="button-icon fa fa-arrow-right"></span>
             </button>
+            
+            
           </div>
         </div>
       </div>
-      {/* End home-details-container */}
 
-      {/* Start Modal for About More */}
+      {/* Modal */}
       <Modal
         isOpen={isOpen}
         onRequestClose={toggleModalOne}
@@ -103,8 +108,9 @@ const Hero = () => {
           <button className="close-modal" onClick={toggleModalOne}>
             <img src={cancelImg} alt="close icon" />
           </button>
-          {/* End close icon */}
-
+          
+            
+          
           <div className="box_inner about">
             <div data-aos="fade-up" data-aos-duration="1200">
               <div className="title-section text-left text-sm-center">
@@ -113,14 +119,11 @@ const Hero = () => {
                 </h1>
                 <span className="title-bg">Resume</span>
               </div>
-              {/* End title */}
               <Index />
             </div>
           </div>
         </div>
-        {/* End modal box news */}
       </Modal>
-      {/* End  Modal for About More */}
     </>
   );
 };
