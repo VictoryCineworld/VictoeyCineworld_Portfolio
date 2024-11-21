@@ -25,7 +25,7 @@ const Address = () => {
         <span className="d-block">call me</span>{" "}
         <a href="Tel: +91 8459686970">+216 21 184 010</a>
         <br/>
-        <a href="Tel: +91 8459686970">+91 9689 896 355</a>
+        <a href="Tel: +91 8459686970">+91 9689 896 </a>
       </p>
       {/* End .custom-span-contact */}
     </>
