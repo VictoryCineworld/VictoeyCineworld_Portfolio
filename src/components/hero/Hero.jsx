@@ -73,7 +73,7 @@ const Hero = () => {
               className="text-uppercase poppins-font"
               style={{ fontSize: "2.8rem", fontWeight: "600" }} // Adjusted size
             >
-              {heroContent.heroTitleName}
+              {"Victory Cineworld"}
               <div>
                 <span style={{ fontSize: "2rem", fontWeight: "600" }}>
                   {heroContent.heroDesignation}
