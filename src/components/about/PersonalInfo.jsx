@@ -1,15 +1,12 @@
 import React from "react";
 
 const personalInfoContent = [
-  { meta: "first name", metaInfo: "Steve" },
-  { meta: "last name", metaInfo: "Milner" },
-  { meta: "Age", metaInfo: "27 Years" },
-  { meta: "Nationality", metaInfo: "Tunisian" },
-  { meta: "Freelance", metaInfo: "Available" },
-  { meta: "Address", metaInfo: "Tunis" },
-  { meta: "phone", metaInfo: "+21621184010" },
-  { meta: "Email", metaInfo: "you@mail.com" },
+  { meta: " name", metaInfo: "Victory Cineworld" },
   { meta: "Skype", metaInfo: " steve.milner" },
+  { meta: "Freelance", metaInfo: "Available" },
+  { meta: "Address", metaInfo: "Chhatrapati Sambhaji Nagar" },
+  { meta: "phone", metaInfo: "+91 85548 45111" },
+  { meta: "Email", metaInfo: "victorycineworld@gmail.com" },
   { meta: "langages", metaInfo: "French, English" },
 ];
 
