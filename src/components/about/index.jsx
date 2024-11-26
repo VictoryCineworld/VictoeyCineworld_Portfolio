@@ -9,6 +9,7 @@ import heroImgMobile from "../../assets/img/hero/img-mobile.jpg";
 const index = () => {
   return (
     <section className="main-content ">
+      
       <div className="container">
         <div className="row">
           {/* Personal Info Starts */}

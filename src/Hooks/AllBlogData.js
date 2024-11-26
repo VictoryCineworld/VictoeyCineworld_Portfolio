@@ -8,20 +8,7 @@ import img6 from "../assets/img/blog/blog-post-6.jpg";
 
 const AllBlogData = () => {
   const blogsData = [
-    {
-      id: 1,
-      img: img1,
-      title: "India Country Chair (IT services and GIG Economy)",
-      commentor: "INdia ",
-      date: "20 November 2024",
-      tag: `All Ladies League`,
-      description1:
-        "Beyond thrilled to join the ranks of the extraordinary G100! A huge thank you to Paulina Chotrova, Dr. Harbeen Arora Rai and Anisha Tiwari for this incredible honor. ",
-      description2:
-        "A special thank you to Jaycy Naveen for her constant support and believing in my capabilities. ",
-      description3:
-        " Can't wait to work together with this amazing group of women leaders to drive positive change in India and around the world",
-       },
+   
     {
       id: 2,
       img: img2,

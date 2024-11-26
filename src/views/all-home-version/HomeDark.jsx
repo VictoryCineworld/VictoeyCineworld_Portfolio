@@ -56,7 +56,7 @@ const HomeDark = () => {
             <div data-aos="fade-up" data-aos-duration="1200">
               <div className="title-section text-left text-sm-center">
                 <h1>
-                  ABOUT <span>ME</span>
+                  ABOUT <span>US</span>
                 </h1>
                 <span className="title-bg">Resume</span>
               </div>
