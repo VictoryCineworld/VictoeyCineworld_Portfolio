@@ -1,13 +1,11 @@
 import React from "react";
 
 const personalInfoContent = [
-  { meta: " name", metaInfo: "Victory Cineworld" },
-  { meta: "Skype", metaInfo: " steve.milner" },
-  { meta: "Freelance", metaInfo: "Available" },
-  { meta: "Address", metaInfo: "Chhatrapati Sambhaji Nagar" },
-  { meta: "phone", metaInfo: "+91 85548 45111" },
-  { meta: "Email", metaInfo: "victorycineworld@gmail.com" },
-  { meta: "langages", metaInfo: "French, English" },
+  { meta: " Contact Details", metaInfo: "9689896355" },
+  { meta: "Connect on Mail", metaInfo: "hello@victortycineworld.com" },
+  { meta: "Office Location", metaInfo: " Chh Sambhajinagar, Mumbai" },
+  { meta: "Services", metaInfo: "Video Production, Content Creation, Social and Digital marketing, IT Services" },
+
 ];
 
 const PersonalInfo = () => {
