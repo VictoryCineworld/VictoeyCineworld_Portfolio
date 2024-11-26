@@ -5,6 +5,9 @@ import heroImgMobile from "../../assets/img/hero/img-mobile.jpg";
 import cancelImg from "../../assets/img/cancel.svg";
 import Index from "../../components/about/index";
 
+// Social media icons
+import { FaInstagram, FaLinkedin, FaTwitter, FaFacebook } from "react-icons/fa";
+
 const heroContent = {
   heroVideo: heroVideo,
   heroMobileImage: heroImgMobile,
@@ -26,9 +29,13 @@ const Hero = () => {
       <div className="row home-details-container align-items-center">
         {/* Background Video for Large Screens */}
         <div
-          className="col-lg-4 bg position-fixed d-none d-lg-block"
+          className="col-lg-4 position-fixed d-none d-lg-block"
           style={{
             backgroundImage: `url(${heroContent.heroVideo})`,
+            backgroundSize: "cover",
+            backgroundPosition: "center",
+            border: "none",
+            borderRadius: "20px",
           }}
         ></div>
 
@@ -44,8 +51,9 @@ const Hero = () => {
               style={{
                 width: "300px",
                 height: "300px",
-                borderRadius: "50%",
+                borderRadius: "20px",
                 objectFit: "cover",
+                border: "none",
               }}
             >
               <source src={heroVideo} type="video/mp4" />
@@ -53,7 +61,7 @@ const Hero = () => {
 
             {/* Desktop Video */}
             <video
-              className="col-lg-4 bg position-fixed d-none d-lg-block"
+              className="d-none d-lg-block"
               src={heroVideo}
               autoPlay
               loop
@@ -61,30 +69,51 @@ const Hero = () => {
               playsInline
               style={{
                 width: "34%",
-                height: "89%",
+                height: "69%",
                 objectFit: "cover",
-                top: 40,
+                position: "absolute",
+                top: 100,
                 left: 36,
+                borderRadius: "20px",
+                border: "none",
               }}
             />
 
             {/* Heading */}
-           
-            <h2 style={{ fontSize: "2.8rem", fontWeight: "600" , color: "orange"}}>
+            <h2 style={{ fontSize: "2.8rem", fontWeight: "600", color: "orange" }}>
               {heroContent.heroTitleName}
             </h2>
 
-            <h2 style={{ fontSize: "1.6rem", fontWeight: "500" , color: "white"}}>
+            <h2 style={{ fontSize: "1.6rem", fontWeight: "500", color: "white" }}>
               {heroContent.heroDesignation}
             </h2>
+
             {/* Description */}
             <p className="open-sans-font">{heroContent.heroDescriptions}</p>
 
-            {/* Button */}
-            <button className="button" onClick={toggleModalOne}>
-              <span className="button-text">{heroContent.heroBtn}</span>
-              <span className="button-icon fa fa-arrow-right"></span>
-            </button>
+            {/* Button and Social Media Icons */}
+            <div className="d-flex align-items-center justify-content-center justify-content-lg-start">
+              <button className="button" onClick={toggleModalOne}>
+                <span className="button-text">{heroContent.heroBtn}</span>
+                <span className="button-icon fa fa-arrow-right"></span>
+              </button>
+
+              {/* Social Media Icons */}
+              <div className="social-icons ms-5 d-flex ">
+                <a href="https://www.instagram.com/victory_cineworld/" target="_blank" rel="noopener noreferrer" className="me-3">
+                  <FaInstagram size={28} color="white" />
+                </a>
+                <a href="https://www.linkedin.com/company/victorycineworld/" target="_blank" rel="noopener noreferrer" className="me-3">
+                  <FaLinkedin size={28} color="white" />
+                </a>
+                <a href="" target="_blank" rel="noopener noreferrer" className="me-3">
+                  <FaTwitter size={28} color="white" />
+                </a>
+                <a href="" target="_blank" rel="noopener noreferrer">
+                  <FaFacebook size={28} color="white" />
+                </a>
+              </div>
+            </div>
           </div>
         </div>
       </div>

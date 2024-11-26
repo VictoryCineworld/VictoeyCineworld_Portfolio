@@ -62,7 +62,7 @@ const index = () => {
         <div className="row">
           <div className="col-12">
             <h3 className="text-uppercase pb-4 pb-sm-5 mb-3 mb-sm-0 text-left text-sm-center custom-title ft-wt-600">
-              My Skills
+              Our Services
             </h3>
           </div>
           <Skills />
@@ -75,7 +75,7 @@ const index = () => {
         <div className="row">
           <div className="col-12">
             <h3 className="text-uppercase pb-5 mb-0 text-left text-sm-center custom-title ft-wt-600">
-              Experience <span>&</span> Education
+              Founders
             </h3>
           </div>
           <div className="col-lg-6 m-15px-tb">
